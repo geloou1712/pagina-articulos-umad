@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="./CSS/DiegoCss.css">
 </head>
+
 <body>
   <header>
     <!-- Encabezado y navegación principal -->
+    <nav>
+      <a href="./index.html">Tienda UMAD</a>
+      <a href="./pages/Mujer.html">Mujer</a>
+      <a href="./pages/hombre.html">Hombre</a>
+      <a href="./pages/Productos.html">Productos</a>
+      <a href="./pages/Nosotros.html">Nosotros</a>
+
+      <a href="#buscar">Buscar</a>
+      <a href="#Carrito">Carrito</a>
+    </nav>
+    <!--Este seria como un banner para la pagina-->
+    <img src="./images/ylanite-fashion-3221102.jpg" alt="Imagen de Ropa x" width="500px" height="300px">
   </header>
 
   <main>
-    <h1>Inicio</h1>
     <!-- Contenido principal de la página -->
-  </main>
+    <h1>En Tendencia</h1>
+    <section class="RopaDiseñoAtras">
+      <!--Donde se encontraran las prendas-->
+      <a href="./pages/VerProducto.html" >
+        <article class="RopaDeDiseñoEnTendencia">
+          <img src="" alt="Fotodelarticulo">
+          <h3 class="TituloDePrenda">Pantalon UMAD</h3>
+          <p class="Calificacion">Calificacion</p>
+          <p class="Precio">$999</p>
+        </article>
+      </a>
 
+      <a href="./pages/VerProducto.html" >
+        <article class="RopaDeDiseñoEnTendencia">
+        <img src="" alt="Fotodelarticulo">
+        <h3 class="TituloDePrenda">Sudadera UMAD</h3>
+        <p class="Calificacion">Calificacion</p>
+        <p class="Precio">$899</p>
+      </article>
+      </a>
+      
+      <a href="./pages/VerProducto.html">
+      <article class="RopaDeDiseñoEnTendencia">
+        <img src="" alt="Fotodelarticulo">
+        <h3 class="TituloDePrenda">Short UMAD</h3>
+        <p class="Calificacion">Calificacion</p>
+        <p class="Precio">$67</p>
+      </article>
+      </a>
+
+    </section>
+
+    <hr>
+    <!--Producto Favorito-->
+    <h1>Favorita</h1>
+    <a href="./pages/VerProducto.html" class="VerProductoDiseño">
+      <article class="ProductoMasVendido">
+      <img src="" alt="Fotodelarticulo">
+      <h3 class="TituloDePrenda">Taza UMAD</h3>
+      <p class="Calificacion">Calificacion</p>
+      <p class="Precio">$67</p>
+    </article>
+    </a>
+    
+
+    <!--Esto ira al lado de favorita-->
+    <div>
+      <p class="FraseGod">“Donde el estilo se encuentra con el orgullo de ser Tigre.”</p>
+    </div>
+
+  </main>
+  <hr>
   <footer>
     <!-- Pie de página -->
+    <nav class="Piedepagina">
+      <a href="./pages/Nosotros.html">Sobre Nosotros</a>
+      <a href="#Politicas">Politicas</a>
+      <p>Orgullo que se viste.</p>
+    </nav>
   </footer>
 </body>
+
 </html>
