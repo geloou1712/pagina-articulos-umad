@@ -1,3 +1,1 @@
 # Proyecto Ropa UMAD
-
-
