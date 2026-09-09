@@ -1,0 +1,39 @@
+.RopaDiseñoAtras{
+    padding: 1em;
+}
+.RopaDeDiseñoEnTendencia{
+    padding: 0.3em;
+    margin: 1em;
+    border: 1px dotted black;
+    width: auto;
+    height: auto;
+}
+.ProductoMasVendido{
+    padding: 0.3em;
+    margin: 1em;
+    border: 1px dotted black;
+    width: auto;
+    height: auto;
+}
+.FraseGod:hover{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.Piedepagina:hover{
+    color: red;
+}
+
+.carrito:hover{
+    color: red;
+}
+.Comprar:hover{
+    color: red;
+}
+.Tallas{
+    padding: 1em;
+    margin: 0.4em;
+
+}
+.Tallas:hover{
+    color: brown;
+}
