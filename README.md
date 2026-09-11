@@ -24,11 +24,14 @@ Nuestro Proyecto Consiste en desarrollar una pagina web para la Tienda de ropa d
 
 
 3. Abre el archivo `index.html` en tu navegador
+
 ### 6. Uso
 Para usar el proyecto primero se clona **el repositorio de git hub**. Una vez descargado, se debe abrir la carpeta del proyecto y ejecutar el archivo ***index.html***
+
 ### 7. Características
 - Uso del hover
 - Uso de CSS para diseño de la pagina
+- Uso de grid
 
 ### 8. Autores
 | Autor        | Contacto     |
@@ -41,15 +44,20 @@ Para usar el proyecto primero se clona **el repositorio de git hub**. Una vez de
 ## Imágenes del diseño de la página
 <h3 >Index</h3>
 <img src="./ImagenesMarkdown/IndexNew.jpg" width="500">
+Inicio de la pagina
 <h3>Contacto</h3>
 <img src="./ImagenesMarkdown/Contacto.jpg" width="500">
+Información de contacto de la Tienda
 <h3>Ropa Hombre</h3>
 <img src="./ImagenesMarkdown/Hombre.jpg" width="500">
+Página donde se muestra la ropa de hombre
 <h3>Ropa Mujer</h3>
 <img src="./ImagenesMarkdown/Mujer.jpg" width="500">
+Página donde se muestra la ropa de mujer
 <h3>Nosotros</h3>
 <img src="./ImagenesMarkdown/NosotrosNew.jpg" width="500">
+Página donde se muestra información acerca de la tienda y los creadores de la pagina
 <h3>Ver Producto</h3>
 <img src="./ImagenesMarkdown/VerProducto.jpg" width="500">
-
+Página donde se muestra la compra del producto
 
