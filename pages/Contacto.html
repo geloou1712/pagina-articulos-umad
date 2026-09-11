@@ -2,21 +2,55 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="../CSS/DiegoCss.css">
+  <link rel="stylesheet" href="../CSS/SamContacto.css">
 </head>
 <body>
-  <header>
-    <!-- Encabezado y navegación principal -->
-  </header>
+<header>
+  <nav>
+    <a href="../index.html">Tienda UMAD</a>
+    <a href="./Mujer.html">Mujer</a>
+    <a href="./hombre.html">Hombre</a>
+    <a href="./Productos.html">Productos</a>
+    <a href="./Nosotros.html">Nosotros</a>
+    <a href="#buscar">Buscar</a>
+    <a href="#Carrito">Carrito</a>
+  </nav>
+</header>
 
-  <main>
-    <h1>Contacto</h1>
-    <!-- Información o formulario de contacto -->
-  </main>
+<main>
+  <h1 class="TituloContacto">Contacto</h1>
+  <div class="InfoContacto">
+    <p>Si tiene alguna duda o comentario, con gusto le atenderemos.</p>
+    <p>Correo: samuelcuatzo@gmail.com</p>
+    <p>Telefono: 221 411 6250 / 222 345 8891</p>
+    <p>Ubicacion: Antiguo Camino Real a Cholula 4212, Col. Exhacienda La Concepción Buenavista, Antiguo Camino Real a Cholula, 72150 San Andrés Cholula, Pue.</p>
+  </div>
 
-  <footer>
-    <!-- Pie de página -->
-  </footer>
+  <hr>
+
+  <form class="FormularioContacto">
+    <label for="nombre">Nombre</label><br>
+    <input class="CampoContacto" type="text" id="nombre" name="nombre"><br>
+
+    <label for="correo">Correo</label><br>
+    <input class="CampoContacto" type="email" id="correo" name="correo"><br>
+
+    <label for="mensaje">Mensaje</label><br>
+    <textarea class="CampoContacto" id="mensaje" name="mensaje"></textarea><br>
+
+    <button class="BotonContacto" type="submit">Enviar</button>
+  </form>
+</main>
+
+<hr>
+<footer>
+  <nav class="Piedepagina">
+    <a href="./Nosotros.html">Sobre Nosotros</a>
+    <a href="#Politicas">Politicas</a>
+    <p>Orgullo que se viste.</p>
+  </nav>
+</footer>
 </body>
 </html>

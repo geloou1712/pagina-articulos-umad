@@ -1,0 +1,108 @@
+/* CSS básico de las páginas de catálogo */
+body {
+    margin: 8px;
+}
+
+.catalogo-navegacion a {
+    margin-right: 5px;
+}
+
+.buscador {
+    margin-right: 5px;
+}
+
+.buscador input {
+    width: 140px;
+    margin-left: 4px;
+}
+
+.catalogo-principal {
+    margin-top: 35px;
+}
+
+.catalogo-principal h1 {
+    margin-bottom: 35px;
+}
+
+.catalogo-contenido {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 25px;
+}
+
+.catalogo-filtros {
+    padding: 12px;
+    border: 1px dotted black;
+}
+
+.catalogo-filtros ul {
+    padding-left: 20px;
+}
+
+.catalogo-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.producto-enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.catalogo-tarjeta {
+    height: 100%;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+.catalogo-tarjeta img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.catalogo-pie {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.catalogo-pie a,
+.catalogo-pie span {
+    margin-right: 30px;
+}
+
+.detalle-producto {
+    display: none;
+}
+
+.detalle-producto:target {
+    display: block;
+}
+
+.detalle-producto img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+.detalle-opciones button,
+.detalle-acciones button {
+    margin-right: 5px;
+    padding: 8px;
+}
+
+.detalle-acciones {
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .catalogo-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .catalogo-productos {
+        grid-template-columns: 1fr;
+    }
+}

@@ -4,19 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mujer | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="../CSS/disenoangel.css">
 </head>
 <body>
   <header>
-    <!-- Encabezado y navegación principal -->
+    <nav class="catalogo-navegacion">
+      <a href="../index.html">Tienda UMAD</a>
+      <a href="./Mujer.html">Mujer</a>
+      <a href="./hombre.html">Hombre</a>
+      <a href="./Productos.html">Productos</a>
+      <a href="./Nosotros.html">Nosotros</a>
+      <a href="./Contacto.html">Contacto</a>
+      <span class="buscador"><label for="buscar">Buscar</label> <input type="text" id="buscar" name="buscar"></span>
+      <a href="./Productos.html">Carrito</a>
+    </nav>
   </header>
 
-  <main>
-    <h1>Mujer</h1>
-    <!-- Contenido de la sección para mujer -->
-  </main>
+  <main class="catalogo-principal" id="catalogo">
+    <h1>Ropa de mujer</h1>
+    <div class="catalogo-contenido">
+      <aside class="catalogo-filtros">
+        <h2>Filtros</h2>
+        <h3>Categoría</h3>
+        <ul><li>Sudadera</li><li>Playera</li><li>Short</li></ul>
+        <h3>Talla</h3>
+        <p>CH, M, G y XG</p>
+        <h3>Precio</h3>
+        <p>Hasta $500</p>
+      </aside>
 
-  <footer>
-    <!-- Pie de página -->
-  </footer>
+      <section class="catalogo-productos">
+        <a class="producto-enlace" href="./VerProducto.html#sudadera-tigres">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/sudadera-tigre-gris.jpeg" alt="Sudadera gris con tigre UMAD bordado">
+            <h2>Sudadera Tigres</h2><p>Sin calificaciones</p><p>$450.00</p>
+          </article>
+        </a>
+        <a class="producto-enlace" href="./VerProducto.html#polo-umad">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/polo-umad-roja.jpeg" alt="Playera polo roja con bordados UMAD">
+            <h2>Playera polo UMAD</h2><p>Sin calificaciones</p><p>$300.00</p>
+          </article>
+        </a>
+        <a class="producto-enlace" href="./VerProducto.html#short-umad">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/short-umad-gris.jpeg" alt="Short gris con logotipo UMAD">
+            <h2>Short gris UMAD</h2><p>Sin calificaciones</p><p>$210.00</p>
+          </article>
+        </a>
+      </section>
+    </div>
+  </main>
+  <footer class="catalogo-pie"><a href="./Nosotros.html">Sobre nosotros</a><span>Política</span><span>Orgullo que se viste</span></footer>
 </body>
 </html>

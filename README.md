@@ -15,7 +15,7 @@ Nuestro Proyecto Consiste en desarrollar una pagina web para la Tienda de ropa d
 ### 5. Instalación
 1. Clona este repositorio:
 
-  -  **git clone** https://github.com/tu-usuario/tu-proyecto.git
+  -  **git clone** https://github.com/geloou1712/pagina-articulos-umad.git
 
 
 2. Navega a la carpeta del proyecto:

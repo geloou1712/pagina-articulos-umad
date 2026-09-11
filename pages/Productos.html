@@ -4,19 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Productos | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="../CSS/disenoangel.css">
 </head>
 <body>
   <header>
-    <!-- Encabezado y navegación principal -->
+    <nav class="catalogo-navegacion">
+      <a href="../index.html">Tienda UMAD</a>
+      <a href="./Mujer.html">Mujer</a>
+      <a href="./hombre.html">Hombre</a>
+      <a href="./Productos.html">Productos</a>
+      <a href="./Nosotros.html">Nosotros</a>
+      <a href="./Contacto.html">Contacto</a>
+      <span class="buscador"><label for="buscar">Buscar</label> <input type="text" id="buscar" name="buscar"></span>
+      <a href="./Productos.html">Carrito</a>
+    </nav>
   </header>
 
-  <main>
+  <main class="catalogo-principal" id="catalogo">
     <h1>Productos</h1>
-    <!-- Catálogo de productos -->
-  </main>
+    <div class="catalogo-contenido">
+      <aside class="catalogo-filtros">
+        <h2>Filtros</h2>
+        <h3>Categoría</h3>
+        <ul><li>Taza</li><li>Termos</li></ul>
+        <h3>Precio</h3>
+        <p>Hasta $500</p>
+      </aside>
 
-  <footer>
-    <!-- Pie de página -->
-  </footer>
+      <section class="catalogo-productos">
+        <a class="producto-enlace" href="./VerProducto.html#taza-tigres">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/taza-tigres-azul.jpeg" alt="Taza azul Tigres Blancos UMAD">
+            <h2>Taza Tigres Blancos</h2><p>Sin calificaciones</p><p>$150.00</p>
+          </article>
+        </a>
+        <a class="producto-enlace" href="./VerProducto.html#termo-deportivo">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/termo-deportivo-negro.jpeg" alt="Termo deportivo negro y plateado UMAD">
+            <h2>Termo deportivo UMAD</h2><p>Sin calificaciones</p><p>$280.00</p>
+          </article>
+        </a>
+        <a class="producto-enlace" href="./VerProducto.html#termo-tigres">
+          <article class="catalogo-tarjeta">
+            <img src="../images/catalogo/termo-umad-degradado.jpeg" alt="Termo azul y blanco Somos Tigres UMAD">
+            <h2>Termo Somos Tigres</h2><p>Sin calificaciones</p><p>$250.00</p>
+          </article>
+        </a>
+      </section>
+    </div>
+  </main>
+  <footer class="catalogo-pie"><a href="./Nosotros.html">Sobre nosotros</a><span>Política</span><span>Orgullo que se viste</span></footer>
 </body>
 </html>
