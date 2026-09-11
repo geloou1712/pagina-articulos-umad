@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Contacto | Proyecto Ropa UMAD</title>
   <link rel="stylesheet" href="../CSS/DiegoCss.css">
+  <link rel="stylesheet" href="../CSS/SamContacto.css">
 </head>
 <body>
 <header>
@@ -19,25 +20,27 @@
 </header>
 
 <main>
-  <h1>Contacto</h1>
-  <p>Si tiene alguna duda o comentario, con gusto le atenderemos.</p>
-  <p>Correo: samuelcuatzo@gmail.com</p>
-  <p>Telefono: 221 411 6250 / 222 345 8891</p>
-  <p>Ubicacion: Antiguo Camino Real a Cholula 4212, Col. Exhacienda La Concepción Buenavista, Antiguo Camino Real a Cholula, 72150 San Andrés Cholula, Pue.</p>
+  <h1 class="TituloContacto">Contacto</h1>
+  <div class="InfoContacto">
+    <p>Si tiene alguna duda o comentario, con gusto le atenderemos.</p>
+    <p>Correo: samuelcuatzo@gmail.com</p>
+    <p>Telefono: 221 411 6250 / 222 345 8891</p>
+    <p>Ubicacion: Antiguo Camino Real a Cholula 4212, Col. Exhacienda La Concepción Buenavista, Antiguo Camino Real a Cholula, 72150 San Andrés Cholula, Pue.</p>
+  </div>
 
   <hr>
 
-  <form>
+  <form class="FormularioContacto">
     <label for="nombre">Nombre</label><br>
-    <input type="text" id="nombre" name="nombre"><br>
+    <input class="CampoContacto" type="text" id="nombre" name="nombre"><br>
 
     <label for="correo">Correo</label><br>
-    <input type="email" id="correo" name="correo"><br>
+    <input class="CampoContacto" type="email" id="correo" name="correo"><br>
 
     <label for="mensaje">Mensaje</label><br>
-    <textarea id="mensaje" name="mensaje"></textarea><br>
+    <textarea class="CampoContacto" id="mensaje" name="mensaje"></textarea><br>
 
-    <button type="submit">Enviar </button>
+    <button class="BotonContacto" type="submit">Enviar</button>
   </form>
 </main>
 

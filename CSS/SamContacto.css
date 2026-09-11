@@ -1,0 +1,29 @@
+.InfoContacto{
+    padding: 1em;
+    margin: 1em;
+}
+.FormularioContacto{
+    padding: 0.3em;
+    margin: 1em;
+    border: 1px dotted black;
+    width: auto;
+    height: auto;
+}
+.CampoContacto{
+    padding: 0.5em;
+    margin: 0.4em;
+    background-color: lightgray;
+    border: none;
+}
+.BotonContacto{
+    padding: 0.5em;
+    margin: 0.4em;
+    background-color: lightgray;
+    border: none;
+}
+.BotonContacto:hover{
+    color: red;
+}
+.TituloContacto{
+    color: red;
+}
