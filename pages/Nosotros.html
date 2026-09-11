@@ -4,19 +4,196 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nosotros | Proyecto Ropa UMAD</title>
+
+  <style>
+    /* 1. Selector universal */
+    * {
+      font-family: Arial, sans-serif;
+    }
+
+    /* 2. Selectores de etiqueta */
+    p {
+      color: black;
+    }
+
+    h1 {
+      color: #d32f2f; /* Rojo parecido al de la UMAD */
+    }
+
+    h2 {
+      color: #d32f2f;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    /* 3. Selectores de ID */
+    #encabezado-principal {
+      background-color: black;
+      text-align: center;
+    }
+
+    #encabezado-principal h1 {
+      color: white; /* Para que el título se vea en el fondo negro */
+    }
+
+    #logo-umad {
+      width: 100px;
+    }
+
+    #pie-pagina {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    /* 4. Selectores de clase */
+    .btn-volver {
+      background-color: #d32f2f;
+      color: white;
+    }
+
+    .tarjeta-resena {
+      background-color: #f0f0f0; /* Gris muy clarito */
+    }
+
+    .tarjeta-equipo {
+      background-color: #ffe6e6; /* Rojito/rosita muy clarito */
+    }
+
+    .enlace-redes {
+      background-color: gray;
+      color: white;
+    }
+
+    /* 5. Selectores de atributos (Como el que te enseñaron) */
+    img[alt="Foto comunidad"] {
+      width: 200px;
+    }
+
+    img[alt="Foto equipo"] {
+      width: 150px;
+    }
+  </style>
+
 </head>
 <body>
-  <header>
-    <!-- Encabezado y navegación principal -->
+  
+  <header id="encabezado-principal">
+    <!-- Logo de la UMAD (Por ID) -->
+    <img id="logo-umad" src="https://campusvirtual.umad.edu.mx/d2l/lp/navbars/6606/theme/viewimage/15538/view?v=20.26.8.28153" alt="Logo UMAD">
+    
+    <h1>Proyecto Ropa UMAD</h1>
+    
+    <a href="file:///D:/ProyectosEquipo/pagina-articulos-umad/index.html" class="btn-volver">
+      Regresar a la página principal
+    </a>
+    <br><br>
   </header>
 
   <main>
-    <h1>Nosotros</h1>
-    <!-- Información acerca del proyecto -->
+    <h1>Acerca de Nosotros</h1>
+    <p>Bienvenidos a nuestra tienda, el lugar donde el orgullo universitario se lleva puesto en cada chamarra, termo y sudadera.</p>
+
+    <h2>Nuestra Historia</h2>
+    <p>Este proyecto nació de un sentimiento muy profundo y transformador. Nuestro compañero e integrante, Gael Alejandro, sufrió la dolorosa pérdida de un ser muy amado (Una Manzana). En su proceso de duelo, buscó una forma de honrar a esa persona especial y de mantener su memoria viva a través de algo que representara unidad, calidez y pertenencia. Encontró esa inspiración en su segunda casa: la UMAD.</p>
+    <p>Gael se dio cuenta de que los recuerdos más valiosos se construyen en comunidad. Así, compartió esta visión y reunió a un equipo de amigos para crear una línea de productos universitarios. Cada chamarra que abriga en las mañanas frías, cada botella que nos acompaña a clases y cada sudadera, está diseñada para recordarnos que los lazos que forjamos en la escuela nos acompañan para siempre. Hoy, este proyecto es un tributo al amor, la resiliencia y el espíritu inquebrantable de nuestra comunidad estudiantil.</p>
+
+    <h2>Nuestra Misión</h2>
+    <p>Ofrecer a la comunidad estudiantil, egresados y familias de la UMAD, artículos de la más alta calidad que refuercen su identidad universitaria. Buscamos que cada producto sea un emblema de pertenencia y un recuerdo tangible de los mejores años, fomentando la unidad y el orgullo por nuestra institución.</p>
+
+    <h2>Nuestros Valores</h2>
+    <p>Inspirados en la majestuosidad y el espíritu de nuestra mascota, el Tigre, nos regimos por los siguientes valores:</p>
+    <ul>
+      <li><strong>Garra y Pasión:</strong> Imprimimos dedicación total en el diseño y calidad de cada producto que ofrecemos.</li>
+      <li><strong>Liderazgo:</strong> Como el tigre que domina su territorio, buscamos ser pioneros y marcar tendencia en la comunidad.</li>
+      <li><strong>Fuerza y Resiliencia:</strong> La capacidad de transformar los momentos más difíciles en proyectos que inspiran.</li>
+      <li><strong>Lealtad de Manada:</strong> Compromiso absoluto con nuestros compañeros, nuestra casa de estudios y clientes.</li>
+    </ul>
+
+    <h2>Galería de la Comunidad</h2>
+    <p>Nuestros productos en el campus, usados por la manada.</p>
+    <!-- Galería usando el selector de atributo img[alt="Foto comunidad"] -->
+    <img src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.99422-6/792110181_1771915077333622_2272230992537147106_n.png?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=5ZiG61tWh74Q7kNvwFbwXwy&_nc_oc=AdqlrjP1ptbybQe7zCVsgvENMl6G9zJX7OvQJHIrUwWChy_UA3Mc7CF9w2LDhCaXvJU&_nc_zt=14&_nc_ht=scontent.fmex36-1.fna&_nc_gid=DKViyQvL1Ll7g-Zi474B5A&_nc_ss=7b289&oh=00_AQKTmmz8892YOXbjdeSW7qhFxK9tTENbRbZFrHNhwvU_FA&oe=6AA94C93" alt="Foto comunidad">
+    <img src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.99422-6/791228119_1382316030703859_6783874368722702215_n.png?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=CNrp-rGHWWMQ7kNvwGEXovW&_nc_oc=AdoH4cTPAx0OvrZ7cCz9YpP6OHUV-L78JQmG9GeI7M_CFcDMy6vd3P9xZd1ar5mtMD8&_nc_zt=14&_nc_ht=scontent.fmex36-1.fna&_nc_gid=Mn-ep8PAOFBSlOZRLQt-uQ&_nc_ss=7b289&oh=00_AQLw6oeWhKIjrjSWEFXZxRKZL182A2XEqR0j_rXxFryNnA&oe=6AA94299" alt="Foto comunidad">
+    <img src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.99422-6/792071490_2587477408354298_1229758912790071017_n.png?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=trLU5SgIH0YQ7kNvwHOBw-u&_nc_oc=AdozkdJV8W6aDVUcSfASQStbPs91BuYOiTos4IsO0uNqZI9-u5pgDnsxTxkJ0sE5JtA&_nc_zt=14&_nc_ht=scontent.fmex36-1.fna&_nc_gid=DKViyQvL1Ll7g-Zi474B5A&_nc_ss=7b289&oh=00_AQJ3RHGmxMDot_t7qagw9pzO9Wxx2tS0u8_OH-DvBAGj9Q&oe=6AA95963" alt="Foto comunidad">
+    <img src="https://scontent.fmex26-1.fna.fbcdn.net/v/t39.99422-6/791757263_3128685824003374_6394709827435246509_n.png?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=OjXpknQ1wgcQ7kNvwFIZoDW&_nc_oc=AdoVNBBAK39Nahl1GAAK08Ebn-X1Nr_C0aOnp9LHHyrioz9BZXioSiN9O6UIrJbM4fg&_nc_zt=14&_nc_ht=scontent.fmex26-1.fna&_nc_gid=DKViyQvL1Ll7g-Zi474B5A&_nc_ss=7b289&oh=00_AQL-2vonmUVrwEE94NFPbwxaLcOGvxCEUctcTRiY51nxRg&oe=6AA92D5A" alt="Foto comunidad">
+    <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t39.99422-6/791512541_1459403149571602_6165452044564406570_n.png?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=0bLp1mjqNZ0Q7kNvwHMCG5i&_nc_oc=AdoGhnEPmPO8JniWzWrf-ksheo5Ojg4YCN5tCODz5oYtqkYpuTP6AoAIjJ9V2o9apVY&_nc_zt=14&_nc_ht=scontent.fmex5-1.fna&_nc_gid=DKViyQvL1Ll7g-Zi474B5A&_nc_ss=7b289&oh=00_AQIrhwRWRt7XvMVcM25LXvgmpPu9Zkrd4FHaKTzctSD8pA&oe=6AA95D89" alt="Foto comunidad">
+
+    <h2>Lo que dice nuestra comunidad</h2>
+    
+    <div class="tarjeta-resena">
+      <p>★★★★★</p>
+      <p>"La chamarra universitaria tiene una calidad increíble. Me abriga perfecto para las clases de las 7 am. ¡Totalmente recomendada!"</p>
+      <p>- Espitia (Usuario de Linux)</p>
+    </div>
+
+    <div class="tarjeta-resena">
+      <p>★★★★★</p>
+      <p>"El termo mantiene mi café caliente por horas, y el diseño del tigre se ve genial. Gran trabajo, chicos."</p>
+      <p>- Manu M. (Negocios)</p>
+    </div>
+
+    <div class="tarjeta-resena">
+      <p>★★★★★</p>
+      <p>"Compré la sudadera para un regalo y le encantó. Excelente servicio al cliente y orgullo UMAD al 100%."</p>
+      <p>- James Rumbaugh (Egresado)</p>
+    </div>
+
+    <div class="tarjeta-resena">
+      <p>★★</p>
+      <p>"Están muy caras, me compré una y me la robaron"</p>
+      <p>- Gael Alejandro (Usuario de Windows) </p>
+    </div>
+
+    <div class="tarjeta-resena">
+      <p>★★★★★</p>
+      <p>"Súper rápidos con la entrega dentro del campus. La botella de agua es súper práctica y el logo no se despinta para nada."</p>
+      <p>- Andrés R. (Comunicación)</p>
+    </div>
+
+    <h2>Conoce al Equipo</h2>
+    
+    <!-- Equipo usando el selector de atributo img[alt="Foto equipo"] -->
+    <div class="tarjeta-equipo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-bT3U9QCyzdWil51KpyyXZ2p7ixDt80QQjqriyWb2klPttKEBcGf9739&s=10" alt="Foto equipo">
+      <h3>Samuel Cuatzo Conde</h3>
+      <p>Cofundador</p>
+    </div>
+
+    <div class="tarjeta-equipo">
+      <img src="https://i.pinimg.com/474x/bb/04/bd/bb04bde05f43aec379520faf77122641.jpg" alt="Foto equipo">
+      <h3>Angel Omar Luna Castillo</h3>
+      <p>Cofundador</p>
+    </div>
+
+    <div class="tarjeta-equipo">
+      <img src="https://i.ytimg.com/vi/YFR4a9vcri4/maxresdefault.jpg" alt="Foto equipo">
+      <h3>Gael Alejandro Cerrillo Escanero</h3>
+      <p>Cofundador e Inspiración del Proyecto</p>
+    </div>
+
+    <div class="tarjeta-equipo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bLBeUaG991_pTiFvengvrBJNnZQY8WG1-_8cGW7CkxMHArqTN1_Igho&s=10" alt="Foto equipo">
+      <h3>Diego Alberto Juarez Angulo</h3>
+      <p>Cofundador</p>
+    </div>
+
   </main>
 
-  <footer>
-    <!-- Pie de página -->
+  <footer id="pie-pagina">
+    <br>
+    <h3>Síguenos en nuestras Redes Sociales</h3>
+    
+    <a href="https://www.instagram.com/umadpuebla/?hl=es-la" class="enlace-redes">Instagram</a>
+    <a href="https://www.facebook.com/universidadmaderopuebla/?locale=es_LA" class="enlace-redes">Facebook</a>
+    <a href="https://www.tiktok.com/@umadpuebla" class="enlace-redes">TikTok</a>
+
+    
+    <p>&copy; 2026 Proyecto Ropa UMAD. Todos los derechos reservados.</p>
+    <br>
   </footer>
+
 </body>
 </html>
