@@ -1,39 +1,97 @@
-.RopaDiseñoAtras{
-    padding: 1em;
+
+/*Cambios en tipo de fuente*/
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.RopaDeDiseñoEnTendencia{
-    padding: 0.3em;
-    margin: 1em;
-    border: 1px dotted black;
-    width: auto;
-    height: auto;
+
+/*Cambios en Articulos y producto favorito*/
+.Clothes-Articles__Card{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    gap: 20%;
+    
+
+    
 }
-.ProductoMasVendido{
-    padding: 0.3em;
-    margin: 1em;
-    border: 1px dotted black;
-    width: auto;
-    height: auto;
+.Clothes-Articles__image{
+    width: 400px;
+    border-radius: 5%;
+    
 }
-.FraseGod:hover{
+.Clothes-Articles__texts-position{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.text-trending{
+    font-size: 30px;
+    
+}
+
+.Clothes-Articles__title,
+.Favorite-Product__title{
+        font-size: 30px;
+}
+.Clothes-Articles__rating,
+.Favorite-Product__rating{
+    font-size: 20px;
+}
+.Clothes-Articles__price,
+.Favorite-Product__price{
     font-size: 18px;
-    letter-spacing: 2px;
+    font-style: oblique;
 }
-.Piedepagina:hover{
-    color: red;
+.Favorite-Product__price:hover{
+    color:rgb(235, 235, 0);
 }
 
-.carrito:hover{
-    color: red;
+.Clothes-Articles__price:hover{
+    color:rgb(235, 235, 0);
 }
-.Comprar:hover{
-    color: red;
-}
-.Tallas{
-    padding: 1em;
-    margin: 0.4em;
 
+.Favorite-Product__card{
+    display:flex;
+    
+    gap: 20%;
 }
-.Tallas:hover{
-    color: brown;
+.Favorite-Product__image{
+    width: 400px;
+    border-radius: 5%;
+}
+.Favorite-Product__text-position{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+/*Cambios en el navegador del footer y principal*/
+.navigation,.footer-navigation{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(244, 244, 248), purple);
+    padding: 20px;
+    
+}
+.navigation__link,.footer-navigation__link:hover{
+    font-size: 20px;
+    
+}
+
+.footer-navigation__text:hover{
+    font-size: 20px;
+    color: rgb(255, 150, 150);
+}
+
+/*Cambios en palabra del dia*/
+.todays-phrase{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.todays-phrase__text:hover{
+    color: rgb(211, 3, 3);
+    font-size: 150%;
 }
