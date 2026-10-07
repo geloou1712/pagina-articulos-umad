@@ -5,59 +5,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="./CSS/normalize.css">
   <link rel="stylesheet" href="./CSS/DiegoCss.css">
   <link rel="stylesheet" href="./CSS/disenoangel.css">
+  
 </head>
 
 <body>
   <header>
     <!-- Encabezado y navegación principal -->
-    <nav>
-      <a href="./index.html">Tienda UMAD</a>
-      <a href="./pages/Mujer.html">Mujer</a>
-      <a href="./pages/hombre.html">Hombre</a>
-      <a href="./pages/Productos.html">Productos</a>
-      <a href="./pages/Nosotros.html">Nosotros</a>
-      <a href="./pages/Contacto.html">Contacto</a>
+    <nav class="navigation">
+      <a class="navigation__link" href="./index.html">Tienda UMAD</a>
+      <a class="navigation__link" href="./pages/Mujer.html">Mujer</a>
+      <a class="navigation__link" href="./pages/hombre.html">Hombre</a>
+      <a class="navigation__link" href="./pages/Productos.html">Productos</a>
+      <a class="navigation__link" href="./pages/Nosotros.html">Nosotros</a>
+      <a class="navigation__link" href="./pages/Contacto.html">Contacto</a>
       <span class="buscador">
         <label for="buscar">Buscar</label>
         <input type="text" id="buscar" name="buscar">
       </span>
-      <a href="#Carrito">Carrito</a>
+      <a class="navigation__link" href="#Carrito">Carrito</a>
     </nav>
     <!--Este seria como un banner para la pagina-->
-    <img src="./images/ylanite-fashion-3221102.jpg" alt="Imagen de Ropa x" width="500px" height="300px">
+    
   </header>
 
   <main>
     <!-- Contenido principal de la página -->
-    <h1>En Tendencia</h1>
-    <section class="RopaDiseñoAtras">
+    <h1 class="text-trending">En Tendencia</h1>
+    <section class="Clothes-Articles">
       <!--Donde se encontraran las prendas-->
-      <a href="./pages/VerProducto.html" >
-        <article class="RopaDeDiseñoEnTendencia">
-          <img src="./images/catalogo/sudadera-tigre-gris.jpeg" alt="Fotodelarticulo" width="500px">
-          <h3 class="TituloDePrenda">Sudadera UMAD</h3>
-          <p class="Calificacion">Calificacion</p>
-          <p class="Precio">$999</p>
+      <a class="Clothes-Articles__Link" href="./pages/VerProducto.html" >
+        <article class="Clothes-Articles__Card">
+          <img class="Clothes-Articles__image" src="./images/catalogo/sudadera-tigre-gris.jpeg" alt="Fotodelarticulo" width="500px">
+          <div class="Clothes-Articles__texts-position">
+          <h3 class="Clothes-Articles__title">Sudadera UMAD</h3>
+          <p class="Clothes-Articles__rating">Calificacion</p>
+          <p class="Clothes-Articles__price">$999</p>
+          </div>
         </article>
       </a>
 
-      <a href="./pages/VerProducto.html" >
-        <article class="RopaDeDiseñoEnTendencia">
-        <img src="./images/catalogo/jersey-basquetbol-umad.jpeg" alt="Fotodelarticulo" width="500px">
-        <h3 class="TituloDePrenda">Jersey UMAD</h3>
-        <p class="Calificacion">Calificacion</p>
-        <p class="Precio">$899</p>
+      <a class="Clothes-Articles__Link" href="./pages/VerProducto.html" >
+        <article class="Clothes-Articles__Card">
+        <img class="Clothes-Articles__image" src="./images/catalogo/jersey-basquetbol-umad.jpeg" alt="Fotodelarticulo" width="500px">
+        <div class="Clothes-Articles__texts-position">
+        <h3 class="Clothes-Articles__title">Jersey UMAD</h3>
+        <p class="Clothes-Articles__rating">Calificacion</p>
+        <p class="Clothes-Articles__price">$899</p>
+        </div>
       </article>
       </a>
       
-      <a href="./pages/VerProducto.html">
-      <article class="RopaDeDiseñoEnTendencia">
-        <img src="./images/catalogo/short-umad-gris.jpeg" alt="Fotodelarticulo" width="500px">
-        <h3 class="TituloDePrenda">Short UMAD</h3>
-        <p class="Calificacion">Calificacion</p>
-        <p class="Precio">$67</p>
+      <a class="Clothes-Articles__Link" href="./pages/VerProducto.html">
+      <article class="Clothes-Articles__Card">
+        <img class="Clothes-Articles__image" src="./images/catalogo/short-umad-gris.jpeg" alt="Fotodelarticulo" width="500px">
+        <div class="Clothes-Articles__texts-position">
+        <h3 class="Clothes-Articles__title">Short UMAD</h3>
+        <p class="Clothes-Articles__rating">Calificacion</p>
+        <p class="Clothes-Articles__price">$67</p>
+        </div>
       </article>
       </a>
 
@@ -66,29 +74,31 @@
     <hr>
     <!--Producto Favorito-->
     <h1>Favorita</h1>
-    <a href="./pages/VerProducto.html" class="VerProductoDiseño">
-      <article class="ProductoMasVendido">
-      <img src="./images/catalogo/taza-tigres-azul.jpeg" alt="Fotodelarticulo" width="500px">
-      <h3 class="TituloDePrenda">Taza UMAD</h3>
-      <p class="Calificacion">Calificacion</p>
-      <p class="Precio">$67</p>
+    <a class="Favorite-Product" href="./pages/VerProducto.html">
+      <article class="Favorite-Product__card">
+      <img class="Favorite-Product__image" src="./images/catalogo/taza-tigres-azul.jpeg" alt="Fotodelarticulo" width="500px">
+      <div class="Favorite-Product__text-position">
+      <h3 class="Favorite-Product__title">Taza UMAD</h3>
+      <p class="Favorite-Product__rating">Calificacion</p>
+      <p class="Favorite-Product__price">$67</p>
+      </div>
     </article>
     </a>
     
 
     <!--Esto ira al lado de favorita-->
-    <div>
-      <p class="FraseGod">“Donde el estilo se encuentra con el orgullo de ser Tigre.”</p>
+    <div class="todays-phrase">
+      <p class="todays-phrase__text">“Donde el estilo se encuentra con el orgullo de ser Tigre.”</p>
     </div>
 
   </main>
   <hr>
   <footer>
     <!-- Pie de página -->
-    <nav class="Piedepagina">
-      <a href="./pages/Nosotros.html">Sobre Nosotros</a>
-      <a href="#Politicas">Politicas</a>
-      <p>Orgullo que se viste.</p>
+    <nav class="footer-navigation">
+      <a class="footer-navigation__link" href="./pages/Nosotros.html">Sobre Nosotros</a>
+      <a class="footer-navigation__link" href="#Politicas">Politicas</a>
+      <p class="footer-navigation__text">Orgullo que se viste.</p>
     </nav>
   </footer>
 </body>
