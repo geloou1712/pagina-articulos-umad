@@ -10,10 +10,11 @@
     padding: 20px;
     display: flex;
     gap: 20%;
-    
-
-    
+    flex-wrap: wrap;
+    margin: 20px;
 }
+
+
 .Clothes-Articles__image{
     width: 400px;
     border-radius: 5%;
@@ -24,7 +25,7 @@
     flex-direction: column;
     justify-content:center;
 }
-.text-trending{
+.text-trending,.text-favorite{
     font-size: 30px;
     
 }
@@ -52,7 +53,7 @@
 
 .Favorite-Product__card{
     display:flex;
-    
+    flex-wrap: wrap;
     gap: 20%;
 }
 .Favorite-Product__image{
