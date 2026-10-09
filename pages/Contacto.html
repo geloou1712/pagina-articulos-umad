@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto | Proyecto Ropa UMAD</title>
+  <link rel="stylesheet" href="../CSS/normalize.css">
   <link rel="stylesheet" href="../CSS/DiegoCss.css">
+  <link rel="stylesheet" href="../CSS/disenoangel.css">
   <link rel="stylesheet" href="../CSS/SamContacto.css">
 </head>
-<body>
-<header>
-  <nav>
-    <a href="../index.html">Tienda UMAD</a>
-    <a href="./Mujer.html">Mujer</a>
-    <a href="./hombre.html">Hombre</a>
-    <a href="./Productos.html">Productos</a>
-    <a href="./Nosotros.html">Nosotros</a>
-    <a href="#buscar">Buscar</a>
-    <a href="#Carrito">Carrito</a>
-  </nav>
-</header>
 
-<main>
-  <h1 class="TituloContacto">Contacto</h1>
-  <div class="InfoContacto">
-    <p>Si tiene alguna duda o comentario, con gusto le atenderemos.</p>
-    <p>Correo: samuelcuatzo@gmail.com</p>
-    <p>Telefono: 221 411 6250 / 222 345 8891</p>
-    <p>Ubicacion: Antiguo Camino Real a Cholula 4212, Col. Exhacienda La Concepción Buenavista, Antiguo Camino Real a Cholula, 72150 San Andrés Cholula, Pue.</p>
-  </div>
+<body>
+  <header>
+    <nav class="navigation">
+      <a class="navigation__link" href="../index.html">Tienda UMAD</a>
+      <a class="navigation__link" href="./Mujer.html">Mujer</a>
+      <a class="navigation__link" href="./hombre.html">Hombre</a>
+      <a class="navigation__link" href="./Productos.html">Productos</a>
+      <a class="navigation__link" href="./Nosotros.html">Nosotros</a>
+      <a class="navigation__link" href="./Contacto.html">Contacto</a>
+      <span class="buscador">
+        <label for="buscar">Buscar</label>
+        <input type="text" id="buscar" name="buscar">
+      </span>
+    </nav>
+  </header>
+
+  <main class="contacto">
+    <h1 class="contacto__titulo">Contacto</h1>
+
+    <section class="contacto__contenido">
+      <aside class="contacto__info">
+        <h2 class="contacto__subtitulo">Datos de contacto</h2>
+        <p class="contacto__dato">Si tiene alguna duda o comentario, con gusto le atenderemos.</p>
+        <p class="contacto__dato"><strong>Correo:</strong> samuelcuatzo@gmail.com</p>
+        <p class="contacto__dato"><strong>Teléfono:</strong> 221 411 6250 / 222 345 8891</p>
+      </aside>
+
+      <form class="contacto__formulario" action="#" method="post">
+        <label class="contacto__etiqueta" for="nombre">Nombre</label>
+        <input class="contacto__input" type="text" id="nombre" name="nombre" required>
+
+        <label class="contacto__etiqueta" for="correo">Correo</label>
+        <input class="contacto__input" type="email" id="correo" name="correo" required>
+
+        <label class="contacto__etiqueta" for="mensaje">Mensaje</label>
+        <textarea class="contacto__input" id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button class="contacto__boton" type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section class="contacto__mapa">
+      <h2 class="contacto__subtitulo">Ubicación</h2>
+      <p class="contacto__dato">
+        Universidad Madero (UMAD), Antiguo Camino Real a Cholula 4212, Col. Exhacienda La Concepción Buenavista, 72150 San Andrés Cholula, Pue.
+      </p>
+      <iframe
+        class="contacto__mapa-frame"
+        src="https://maps.google.com/maps?q=Universidad%20Madero%2C%20Antiguo%20Camino%20Real%20a%20Cholula%204212%2C%20San%20Andr%C3%A9s%20Cholula&output=embed"
+        title="Mapa de la ubicación de la Universidad Madero"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
 
   <hr>
-
-  <form class="FormularioContacto">
-    <label for="nombre">Nombre</label><br>
-    <input class="CampoContacto" type="text" id="nombre" name="nombre"><br>
-
-    <label for="correo">Correo</label><br>
-    <input class="CampoContacto" type="email" id="correo" name="correo"><br>
-
-    <label for="mensaje">Mensaje</label><br>
-    <textarea class="CampoContacto" id="mensaje" name="mensaje"></textarea><br>
-
-    <button class="BotonContacto" type="submit">Enviar</button>
-  </form>
-</main>
-
-<hr>
-<footer>
-  <nav class="Piedepagina">
-    <a href="./Nosotros.html">Sobre Nosotros</a>
-    <a href="#Politicas">Politicas</a>
-    <p>Orgullo que se viste.</p>
-  </nav>
-</footer>
+  <footer>
+    <nav class="footer-navigation">
+      <a class="footer-navigation__link" href="./Nosotros.html">Sobre Nosotros</a>
+      <a class="footer-navigation__link" href="./Productos.html">Productos</a>
+      <a class="footer-navigation__link" href="./hombre.html">Hombre</a>
+    </nav>
+  </footer>
 </body>
+
 </html>
