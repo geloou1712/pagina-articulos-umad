@@ -24,6 +24,10 @@ body {
     margin-bottom: 35px;
 }
 
+.titulo-seccion {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .catalogo-contenido {
     display: grid;
     grid-template-columns: 220px 1fr;
