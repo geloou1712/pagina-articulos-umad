@@ -1,12 +1,30 @@
-/* CSS básico de las páginas de catálogo */
+
 body {
     margin: 8px;
 }
 
+.catalogo-navegacion {
+     display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(244, 244, 248), purple);
+    padding: 20px;
+    
+}
 .catalogo-navegacion a {
-    margin-right: 5px;
+    text-decoration: none;
+        color: #1f1024;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
 }
 
+.catalogo-navegacion a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(105, 89, 163);
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
 .buscador {
     margin-right: 5px;
 }
@@ -26,6 +44,7 @@ body {
 
 .titulo-seccion {
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
 }
 
 .catalogo-contenido {
