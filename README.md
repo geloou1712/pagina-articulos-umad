@@ -32,6 +32,8 @@ Para usar el proyecto primero se clona **el repositorio de git hub**. Una vez de
 - Uso del hover
 - Uso de CSS para diseño de la pagina
 - Uso de grid
+- Uso de Flexbox
+- Metodologia BEM para clases
 
 ### 8. Autores
 | Autor        | Contacto     |
