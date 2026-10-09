@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.encabezado__logo {
+  width: 100px;
+}
+
+.encabezado__titulo {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.navegacion__lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navegacion__item {
+  margin: 5px;
+}
+
+.navegacion__enlace {
+  display: inline-block;
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navegacion__enlace:hover {
+  background-color: gray;
+}
+
+.navegacion__enlace--activo {
+  background-color: gray;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.seccion {
+  padding: 20px;
+}
+
+.seccion__titulo {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.seccion__texto {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.seccion__lista {
+  padding: 10px 0;
+}
+
+.seccion__item {
+  border-left: 4px solid #d32f2f;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria__imagen {
+  width: 200px;
+  margin: 10px;
+}
+
+.resenas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resena {
+  background-color: #f0f0f0;
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.resena__estrellas {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.resena__texto {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.resena__autor {
+  font-weight: bold;
+}
+
+.equipo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.integrante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe6e6;
+  width: 220px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.integrante__foto {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.integrante__nombre {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.integrante__puesto {
+  color: black;
+}
+
+.pie {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.pie__titulo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pie__redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pie__item {
+  margin: 5px;
+}
+
+.pie__enlace {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+}
+
+.pie__enlace:hover {
+  background-color: #d32f2f;
+}
+
+.pie__copyright {
+  margin-top: 10px;
+}
